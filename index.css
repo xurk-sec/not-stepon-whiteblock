@@ -1,0 +1,62 @@
+#main {
+  width: 408px;
+  height: 408px;
+  background: white;
+  border: 2px solid gray;
+  /* auto:The browser selects a suitable margin to use. For example, in certain cases this value can be used to center an element. */
+  /* margin: 外边距； padding：内边距 */
+  margin: 0 auto;
+  /* 超出区域的子集不展示 */
+  overflow: hidden;   
+}
+
+/* score字体 */
+h2 {
+  text-align: center;
+}
+
+#con {
+  width: 100%;
+  height: 400px;
+  /* relative: The element is positioned according to the normal flow of the document, and then offset relative to itself based on the values of top, right, bottom, and left. The offset does not affect the position of any other elements; thus, the space given for the element in the page layout is the same as if position were static. */
+  position: relative;
+  /* 隐藏所有格子 */
+  top: -408px;  
+  /* collapse:共有边界 seperate:边界分离 */
+  border-collapse: collapse;
+}
+
+.row {
+  height: 100px;
+  width: 100%;
+}
+
+.cell {
+  height: 100px;
+  width: 100px;
+  float: left;
+  border: rgb(54, 74, 129) 1px solid;
+}
+
+.black {
+  background-color: black;
+}
+
+/* ??? */
+.btn {
+  width: 100%;
+  text-align: center;
+}
+
+.start {
+  margin: 20px auto;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: yellowgreen;
+  line-height: 50px;
+  color: #fff;
+}
+
+#ranking {
+}
